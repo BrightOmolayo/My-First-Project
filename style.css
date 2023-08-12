@@ -50,13 +50,20 @@ header a{
     display:flex;
     position: relative;
     left: 30%;
-    gap: 4%;
+    gap: 2%;
     width: 26%;
-    margin-left: 3%;
 }
 
 .more{
     color: #FF764D;
     border: transparent;
     background-color: transparent;
+}
+
+.linkA{
+    width: 47%;
+}
+
+.linkB{
+    width: 51%;
 }
