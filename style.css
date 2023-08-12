@@ -49,9 +49,10 @@ header a{
 .links2{
     display:flex;
     position: relative;
-    left: 34%;
+    left: 30%;
     gap: 2%;
-    width: 24%;
+    width: 28%;
+    margin-left: 3%;
 }
 
 .more{
