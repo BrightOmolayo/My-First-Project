@@ -49,9 +49,9 @@ header a{
 .links2{
     display:flex;
     position: relative;
-    left: 30%;
+    left: 25%;
     gap: 2%;
-    width: 26%;
+    width: 30%;
 }
 
 .more{
