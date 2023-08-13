@@ -26,16 +26,17 @@ ul{
 
 header{
     height: 70px;
+
 }
 
 header a{
     text-decoration: none;
     font-size: 17px;
     font-weight: 600;
-    color: #000;
     font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
     "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     padding-top: 5%;
+    color: #000;
 }
 
 .links1{
@@ -60,9 +61,14 @@ header a{
     background-color: transparent;
 }
 
-.linkA{
+.linkA {
+   
     width: 49%;
     margin-left: 10%;
+}
+
+.linkA a{
+    color: blue;
 }
 
 .linkB{
