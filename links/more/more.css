@@ -20,8 +20,8 @@ img{
 ul{
     display: flex;
     list-style: none;
-    width: 95%;
-    padding: 1.2%;
+    width: 92%;
+    padding: 2%;
 }
 
 header{
@@ -49,13 +49,22 @@ header a{
 .links2{
     display:flex;
     position: relative;
-    left: 34%;
-    gap: 8%;
-    width: 24%;
+    left: 30%;
+    gap: 2%;
+    width: 30%;
 }
 
 .more{
     color: #FF764D;
     border: transparent;
     background-color: transparent;
+}
+
+.linkA{
+    width: 49%;
+    margin-left: 10%;
+}
+
+.linkB{
+    width: 51%;
 }
