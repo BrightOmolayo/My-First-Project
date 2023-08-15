@@ -68,3 +68,6 @@ header a{
 .linkB{
     width: 51%;
 }
+.linkA a{
+    color: blue;
+}

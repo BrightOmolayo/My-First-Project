@@ -8,63 +8,200 @@ img{
     width: 100%;
 }
 
-.dropdown{
-    display: none;
+
+
+
+@media screen  and (min-width:1025px) and (max-width: 1200){
+
+    .dropdown{
+        display: none;
+    }
+    
+    .underline{
+        height: 1px;
+        background-color: #d3c8c8;
+    }
+    
+    ul{
+        display: flex;
+        list-style: none;
+        width: 92%;
+        padding: 2%;
+    }
+    
+    header{
+        height: 70px;
+    }
+    
+    header a{
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 600;
+        color: #000;
+        font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
+        "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        padding-top: 5%;
+    }
+    
+    .links1{
+        display: flex;
+        position: relative;
+        left: 4%;
+        gap: 6%;
+        width: 40%;
+    }
+    
+    .links2{
+        display:flex;
+        position: relative;
+        left: 30%;
+        gap: 2%;
+        width: 30%;
+    }
+    
+    .more{
+        color: #FF764D;
+        border: transparent;
+        background-color: transparent;
+    }
+    
+    .linkA{
+        width: 49%;
+        margin-left: 10%;
+    }
+    
+    .linkB{
+        width: 51%;
+    }
+    
+    .linkA a{
+        color: blue;
+    }
+    
 }
 
-.underline{
-    height: 1px;
-    background-color: #d3c8c8;
+@media screen  and (min-width:769px) and (max-width: 1024px){
+
+
+    .dropdown{
+        display: none;
+    }
+    
+    .underline{
+        height: 1px;
+        background-color: #d3c8c8;
+    }
+    
+    ul{
+        display: flex;
+        list-style: none;
+        width: 92%;
+        padding: 2%;
+    }
+    
+    header{
+        height: 70px;
+    }
+    
+    header a{
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 600;
+        color: #000;
+        font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
+        "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        padding-top: 5%;
+    }
+    
+    .links1{
+        display: flex;
+        position: relative;
+        left: 4%;
+        gap: 6%;
+        width: 40%;
+    }
+    
+    .links2{
+        display:flex;
+        position: relative;
+        left: 30%;
+        gap: 2%;
+        width: 30%;
+    }
+    
+    .more{
+        color: #FF764D;
+        border: transparent;
+        background-color: transparent;
+    }
+    
+    .linkA{
+        width: 49%;
+        margin-left: 10%;
+    }
+    
+    .linkB{
+        width: 51%;
+    }
+    
+    .linkA a{
+        color: blue;
+    }
+
+
 }
 
-ul{
-    display: flex;
-    list-style: none;
-    width: 92%;
-    padding: 2%;
-}
+@media screen  and (min-width:481px) and (max-width: 768px){
+  
+    
+/* drop-down-split-btn*/
 
-header{
-    height: 70px;
-}
-
-header a{
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 600;
-    color: #000;
-    font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
-    "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    padding-top: 5%;
-}
-
-.links1{
-    display: flex;
+.dropbtn {
+    padding: 2px;
+    font-size: 26px;
     position: relative;
-    left: 4%;
-    gap: 6%;
-    width: 40%;
-}
-
-.links2{
-    display:flex;
-    position: relative;
-    left: 30%;
-    gap: 2%;
-    width: 30%;
-}
-
-.more{
-    color: #FF764D;
+    left: 70px;
     border: transparent;
+    z-index: 100;
     background-color: transparent;
-}
+    
+  }
+  
+  .dropdown {
+    position: relative;
+    display: block;
+    z-index: 100;
+    bottom: 40px;
+  }
+  
+  
+  .dropdown-content {
+    display: block;
+    top: -790px;
+    position: absolute;
+    background-color:#0000ff;
+    width: 100%;
+    z-index: 30 !important;
+    overflow: auto;
+    height: 770px;
+    transition: 0.6s ease-in-out;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .increase-height{
+    top:0px;
+    padding-top: 40px;
+  }
+  
+  .dropdown-content a {
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+  }
+  
+  .show {display: block;}
 
-.linkA{
-    width: 49%;
-    margin-left: 10%;
-}
-
-.linkB{
-    width: 51%;
 }

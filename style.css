@@ -12,7 +12,8 @@ img{
     display: none;
 }
 
-.underline{
+.underline,
+.secondUnderline{
     height: 1px;
     background-color: #d3c8c8;
 }
@@ -20,13 +21,12 @@ img{
 ul{
     display: flex;
     list-style: none;
-    width: 92%;
-    padding: 2%;
+    width: 96%;
+    padding: 2% 1% 1% 1%;
 }
 
 header{
-    height: 70px;
-
+    height: 80px;
 }
 
 header a{
@@ -50,9 +50,9 @@ header a{
 .links2{
     display:flex;
     position: relative;
-    left: 30%;
-    gap: 2%;
-    width: 30%;
+    left: 37%;
+    gap: 4%;
+    width: 20%;
 }
 
 .more{
@@ -61,16 +61,30 @@ header a{
     background-color: transparent;
 }
 
-.linkA {
-   
-    width: 49%;
-    margin-left: 10%;
-}
-
 .linkA a{
     color: blue;
 }
 
-.linkB{
-    width: 51%;
+/*footer*/
+
+footer{
+    padding: 8%;
+    font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.fH1{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexItem{
+
+    flex-basis: 200px;
 }
