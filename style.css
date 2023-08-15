@@ -71,6 +71,7 @@ footer{
     padding: 8%;
     font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
     "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
 }
 
 .fH1{
@@ -78,13 +79,126 @@ footer{
     font-weight: 700;
 }
 
-.container{
+.firstRow{
     display: flex;
-    justify-content: space-between;
+    justify-self: center;
     align-items: center;
+    gap: 6%;
+    padding-bottom: 2%;
 }
 
-.flexItem{
+.firstRow a{
+    color: #000;
+    text-decoration: none;
+}
 
-    flex-basis: 200px;
+.flexItem1{
+    width: 35%;
+    padding-top: 2%;
+}
+
+.flexItem3{
+    width: 53%;
+}
+
+.icons{
+    display: flex;
+    gap: 4%;
+}
+
+
+.twitter{
+    background-color: rgb(29, 139, 190);
+    color:white;
+    width: 18%;
+    height: 40px;
+    padding: 5px;
+    font-size: 38px;
+}
+
+.youtube{
+    background-color: red;
+    color:white;
+    width: 18%;
+    height: 40px;
+    padding: 5px;
+    font-size: 38px;
+}
+
+.instagram{
+    background-color: orangered;
+    color:white;
+    width: 18%;
+    height: 40px;
+    padding: 5px;
+    font-size: 38px;
+}
+
+.facebook{
+    background-color: rgb(65, 65, 235);
+    color:white;
+    width: 18%;
+    height: 40px;
+    padding: 5px;
+    font-size: 38px;
+}
+
+.secondRow{
+
+    display: flex;
+    gap: 7%;
+    padding: 2% 0% 6% 0%;
+
+}
+
+.secondRow a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+.fLogo{
+    width: 3%;
+    position: relative;
+    left: 30%;
+}
+
+.Berlin{
+
+    position: relative;
+    left: 30%;
+
+}
+
+.thirdRow{
+    display: flex;
+    gap: 3%;
+}
+
+.thirdRow a{
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.email{
+    width: 75%;
+    height: 37px;
+    border: transparent;
+    background-color: #dde2e1;
+}
+
+.Sign{
+    width: 22%;
+    height: 41px;
+    position: relative;
+    right: 1.2%;
+    background-color: blue;
+    color: #ffffff;
+    border: transparent;
+    padding: 2%;
+}
+
+.heading{
+    padding: 3%  3% 3% 0%;
 }
