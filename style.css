@@ -229,3 +229,72 @@ footer{
     border: transparent;
     background-color: #dde2e1;
 }
+
+
+
+/*desktop and large screen*/
+
+@media screen  and (min-width : 1025px) and (max-width : 1200px){
+
+    /* desktop and large screen*/
+
+    .dropdown{
+        display: block;
+    }
+    
+    .dropdown-content {
+        display: block;
+        position: absolute;
+        top: -790px;
+        background-color:#0000ff;
+        width: 100%;
+        overflow:auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        transition: 0.6s ease-in-out;
+        overflow: hidden;
+      }
+
+      .dropdown-content a {
+        color: whitesmoke;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        position: relative;
+      }
+      
+      .show {display: block;}
+
+      .increase-height{
+        top: 0px;
+        padding-top: 40px;
+      }
+
+    .dropbtn {
+        padding: 2px;
+        font-size: 18px;
+        position: relative;
+        left:70px;
+        border: transparent;
+        background-color: transparent;
+        z-index: 100;
+        font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
+        "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .links{
+        display: none;
+    }
+
+    .firstRow{
+        display: block;
+    }
+    
+    .thirdRow{
+        width: 10%;
+        display: block;
+        font-weight: 500;
+    }
+}
