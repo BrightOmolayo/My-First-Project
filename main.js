@@ -2,7 +2,7 @@
 toggle between hiding and showing the dropdown content */
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("increase-height");
-  document.getElementsByClassName("dropbtn").style.color = "white"
+  document.getElementsByClassName("dropbtn headerLogo").style.color = "white"
 }
 
 // Close the dropdown if the user clicks outside of it
@@ -20,3 +20,5 @@ window.onclick = function(event) {
     // }
   }
 }
+
+//ch
