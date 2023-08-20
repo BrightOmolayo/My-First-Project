@@ -239,6 +239,26 @@ footer{
     /* desktop and large screen*/
 
 
+    ul{
+        display: flex;
+        list-style: none;
+        width: 96%;
+        padding: 2% 1% 1% 1%;
+    }
+    
+    
+    
+    
+    .links2{
+        display:flex;
+        position: relative;
+        left: 30%;
+        gap: 4%;
+        width: 28%;
+    }
+    
+
+
 
     /* footer*/
 
