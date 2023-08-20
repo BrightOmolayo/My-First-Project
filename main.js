@@ -21,4 +21,3 @@ window.onclick = function(event) {
   }
 }
 
-//ch
