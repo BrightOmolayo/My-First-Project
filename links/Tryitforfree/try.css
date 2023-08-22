@@ -8,200 +8,720 @@ img{
     width: 100%;
 }
 
-
-
-
-@media screen  and (min-width:1025px) and (max-width: 1200){
-
-    .dropdown{
-        display: none;
-    }
-    
-    .underline{
-        height: 1px;
-        background-color: #d3c8c8;
-    }
-    
-    ul{
-        display: flex;
-        list-style: none;
-        width: 92%;
-        padding: 2%;
-    }
-    
-    header{
-        height: 70px;
-    }
-    
-    header a{
-        text-decoration: none;
-        font-size: 17px;
-        font-weight: 600;
-        color: #000;
-        font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
-        "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        padding-top: 5%;
-    }
-    
-    .links1{
-        display: flex;
-        position: relative;
-        left: 4%;
-        gap: 6%;
-        width: 40%;
-    }
-    
-    .links2{
-        display:flex;
-        position: relative;
-        left: 30%;
-        gap: 2%;
-        width: 30%;
-    }
-    
-    .more{
-        color: #FF764D;
-        border: transparent;
-        background-color: transparent;
-    }
-    
-    .linkA{
-        width: 49%;
-        margin-left: 10%;
-    }
-    
-    .linkB{
-        width: 51%;
-    }
-    
-    .linkA a{
-        color: blue;
-    }
-    
+.dropdown{
+    display: none;
 }
 
-@media screen  and (min-width:769px) and (max-width: 1024px){
-
-
-    .dropdown{
-        display: none;
-    }
-    
-    .underline{
-        height: 1px;
-        background-color: #d3c8c8;
-    }
-    
-    ul{
-        display: flex;
-        list-style: none;
-        width: 92%;
-        padding: 2%;
-    }
-    
-    header{
-        height: 70px;
-    }
-    
-    header a{
-        text-decoration: none;
-        font-size: 17px;
-        font-weight: 600;
-        color: #000;
-        font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
-        "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        padding-top: 5%;
-    }
-    
-    .links1{
-        display: flex;
-        position: relative;
-        left: 4%;
-        gap: 6%;
-        width: 40%;
-    }
-    
-    .links2{
-        display:flex;
-        position: relative;
-        left: 30%;
-        gap: 2%;
-        width: 30%;
-    }
-    
-    .more{
-        color: #FF764D;
-        border: transparent;
-        background-color: transparent;
-    }
-    
-    .linkA{
-        width: 49%;
-        margin-left: 10%;
-    }
-    
-    .linkB{
-        width: 51%;
-    }
-    
-    .linkA a{
-        color: blue;
-    }
-
-
+.underline,
+.secondUnderline{
+    height: 1px;
+    background-color: #d3c8c8;
 }
 
-@media screen  and (min-width:481px) and (max-width: 768px){
-  
-    
-/* drop-down-split-btn*/
+ul{
+    display: flex;
+    list-style: none;
+    width: 96%;
+    padding: 2% 1% 1% 1%;
+}
 
-.dropbtn {
-    padding: 2px;
-    font-size: 26px;
-    position: relative;
-    left: 70px;
-    border: transparent;
-    z-index: 100;
-    background-color: transparent;
-    
-  }
-  
-  .dropdown {
-    position: relative;
-    display: block;
-    z-index: 100;
-    bottom: 40px;
-  }
-  
-  
-  .dropdown-content {
-    display: block;
-    top: -790px;
-    position: absolute;
-    background-color:#0000ff;
-    width: 100%;
-    z-index: 30 !important;
-    overflow: auto;
-    height: 770px;
-    transition: 0.6s ease-in-out;
-    overflow: hidden;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  .increase-height{
-    top:0px;
-    padding-top: 40px;
-  }
-  
-  .dropdown-content a {
-    color: whitesmoke;
-    padding: 12px 16px;
+header{
+    height: 80px;
+}
+
+header a{
     text-decoration: none;
-    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-top: 5%;
+    color: #000;
+}
+
+.links1{
+    display: flex;
     position: relative;
-  }
-  
-  .show {display: block;}
+    left: 4%;
+    gap: 6%;
+    width: 38%;
+}
+
+.links2{
+    display:flex;
+    position: relative;
+    left: 38%;
+    gap: 4%;
+    width: 22%;
+}
+
+.more{
+    color: #FF764D;
+    border: transparent;
+    background-color: transparent;
+}
+
+.linkA a{
+    color: blue;
+}
+
+/*footer*/
+
+footer{
+    padding: 8%;
+    font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+}
+
+.fH1{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.firstRow{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 8%;
+    padding-bottom: 2%;
+}
+
+.firstRow a{
+    color: #000;
+    text-decoration: none;
+}
+
+.flexItem1{
+    width: 35%;
+    padding-top: 2%;
+}
+
+.flexItem3{
+    width: 53%;
+}
+
+.icons{
+    display: flex;
+    gap: 4%;
+}
+
+
+.twitter{
+    background-color: rgb(29, 139, 190);
+    color:white;
+    width: 18%;
+    height: 40px;
+    padding: 5px;
+    font-size: 38px;
+}
+
+.youtube{
+    background-color: red;
+    color:white;
+    width: 18%;
+    height: 40px;
+    padding: 5px;
+    font-size: 38px;
+}
+
+.instagram{
+    background-color: orangered;
+    color:white;
+    width: 18%;
+    height: 40px;
+    padding: 5px;
+    font-size: 38px;
+}
+
+.facebook{
+    background-color: rgb(65, 65, 235);
+    color:white;
+    width: 18%;
+    height: 40px;
+    padding: 5px;
+    font-size: 38px;
+}
+
+.secondRow{
+
+    display: flex;
+    gap: 7%;
+    padding: 2% 0% 6% 0%;
+
+}
+
+.secondRow a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+.fLogo{
+    width: 4%;
+    position: relative;
+    left: 22%;
+}
+
+.Berlin{
+
+    position: relative;
+    left: 22%;
+
+}
+
+.thirdRow{
+    display: flex;
+    gap: 2%;
+    font-weight: 700;
+}
+
+.thirdRow a{
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.for320{
+    display: none;
+}
+
+.email{
+    width: 75%;
+    height: 37px;
+    border: transparent;
+    background-color: #dde2e1 ;
+}
+
+.Sign{
+    width: 22%;
+    height: 41px;
+    position: relative;
+    right: 1.2%;
+    background-color: blue;
+    color: #ffffff;
+    border: transparent;
+    padding: 2%;
+}
+
+.heading{
+    padding: 3%  3% 3% 0%;
+}
+
+.flexItem5{
+    padding-top: 1%;
+}
+
+.flexItem4{
+
+    width: 30%;
+}
+
+.lang{
+
+    width: 40%;
+    height: 37px;
+    border: transparent;
+    background-color: #dde2e1;
+
+}
+
+.location{
+
+    width: 45%;
+    height: 37px;
+    border: transparent;
+    background-color: #dde2e1;
+}
+
+
+
+/*desktop and large screen*/
+
+@media screen  and (min-width : 1025px) and (max-width : 1200px){
+
+    /* desktop and large screen*/
+
+
+    ul{
+        display: flex;
+        list-style: none;
+        width: 96%;
+        padding: 2% 1% 1% 1%;
+    }
+    
+    
+    
+    
+    .links2{
+        display:flex;
+        position: relative;
+        left: 30%;
+        gap: 4%;
+        width: 28%;
+    }
+    
+
+
+
+    /* footer*/
+
+
+    footer{
+
+        font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
+        "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        
+    }
+
+   
+    
+    .Berlin{
+        position: relative;
+        left: 15%;
+    }
+
+    .fLogo{
+        width: 5%;
+        display: block;
+        position: relative;
+        left: 15%;
+        height: 30px;
+    }
+
+
+    .icons{
+        display: flex;
+        gap: 4%;
+        color:white;
+    }
+    
+    
+    .twitter{
+        background-color: rgb(29, 139, 190);
+        width: 16%;
+        height: 28px;
+        padding: 7px;
+        font-size: 28px;
+    }
+    
+    .youtube{
+        background-color: red;
+        width: 16%;
+        height: 28px;
+        padding: 7px;
+        font-size: 28px;
+    }
+    
+    .instagram{
+        background-color: orangered;
+        width: 16%;
+        height: 28px;
+        padding: 7px;
+        font-size: 28px;
+    }
+    
+    .facebook{
+        background-color: rgb(65, 65, 235);
+        width: 16%;
+        height: 28px;
+        padding: 7px;
+        font-size: 28px;
+    }
+
+    
+    .firstRow{
+       display: flex;
+       justify-self: center;
+       align-items: center;
+       gap: 4%;
+       padding-bottom: 2%;
+    } 
+
+    .flexItem3{
+        width: 63%;
+        margin-left: 6%;
+        padding-bottom: 2%;
+    }
+    
+    .flexItem1{
+         padding-bottom: 3%;
+
+    }
+}
+
+
+
+/* mobile phone */
+
+
+@media screen  and (min-width : 320px) and (max-width : 480px){
+
+    .wrapper{
+        padding: 4%;
+    }
+
+     /* header*/
+
+     .links{
+        display: none;
+    }
+
+    .dropdown{
+        display: block;
+    }
+
+    .dropdown-content {
+        display: block;
+        position: absolute;
+        top: -790px;
+        background-color:#0000ff;
+        width: 100%;
+        overflow:auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        transition: 0.6s ease-in-out;
+        overflow: hidden;
+    }
+
+    .dropbtn {
+        padding: 5%  5% 5% 8%;
+        font-size: 20px;
+        border:none;
+        background-color: transparent;
+        z-index: 100;
+        font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
+        "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 26px;
+        font-weight: 400;
+        position: relative;
+    }
+
+
+    .dropdown-content a {
+        color: whitesmoke;
+        padding: 7px 5px;
+        text-decoration: none;
+        display: block;
+        position: relative;
+    }
+      
+    .show {display: block;}
+
+   .increase-height{
+        top: 0px;
+        padding-top: 40px;
+    }
+
+    .down{
+        font-size: 4%;
+    }
+
+    .headerLogo{
+        padding-left: 6%;
+        z-index: 100;
+    }
+
+
+    /* footer*/
+
+
+    footer{
+        display: block;
+        font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
+        "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        padding: 8% 3% 2% 3%;
+    }
+
+    .fH1{
+        font-size: 35px;
+        font-weight: 500;
+    }
+    
+    .flexItem5{
+        display:none ;
+    }
+    firstRow{
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        gap: 8%;
+        padding-bottom: 2%;
+    }
+    
+    firstRow a{
+        color: #000;
+        text-decoration: none;
+    }
+    
+    flexItem1{
+        width: 35%;
+        padding-top: 2%;
+    }
+    
+    flexItem3{
+        width: 53%;
+    }
+    
+    Berlin{
+        position: relative;
+        left: 15%;
+    }
+
+    fLogo{
+        width: 5%;
+        display: block;
+        position: relative;
+        left: 15%;
+        height: 30px;
+    }
+
+
+    icons{
+        display: flex;
+        gap: 4%;
+        color:white;
+    }
+    
+    
+    twitter{
+        background-color: rgb(29, 139, 190);
+        width: 16%;
+        height: 28px;
+        padding: 7px;
+        font-size: 28px;
+    }
+    
+    youtube{
+        background-color: red;
+        width: 16%;
+        height: 28px;
+        padding: 7px;
+        font-size: 28px;
+    }
+    
+    instagram{
+        background-color: orangered;
+        width: 16%;
+        height: 28px;
+        padding: 7px;
+        font-size: 28px;
+    }
+    
+    facebook{
+        background-color: rgb(65, 65, 235);
+        width: 16%;
+        height: 28px;
+        padding: 7px;
+        font-size: 28px;
+    }
+
+    
+    .firstRow{
+       display:block;
+       
+    } 
+
+    .secondRow{
+        display:block;
+        
+     } 
+
+     .thirdRow{
+        display:block;
+        width: 10%;
+     } 
+
+    flexItem3{
+        width: 63%;
+        margin-left: 6%;
+        padding-bottom: 2%;
+    }
+    
+    flexItem1{
+        padding-bottom: 3%;
+
+    }
+
+    .for320{
+        display:block;
+    }
+
+
+}
+
+@media screen  and (min-width : 480px) and (max-width : 768px){
+
+    ul{
+        display: flex;
+        list-style: none;
+        width: 94%;
+        padding: 5% 1% 1% 2%;
+    }
+    
+    .more{
+        display: none;
+    }
+
+
+    .Berlin{
+        position: relative;
+        left: 5%;
+    }
+    
+
+    .fLogo{
+        width: 5%;
+        display: block;
+        position: relative;
+        left: -1%;
+        height: 30px;
+    }
+
+    .for320{
+        display: none;
+    }
+
+    .links2{
+        display:none;
+    }
+
+
+    .links1{
+        display: flex;
+        position: relative;
+        left: 5%;
+        gap: 8%;
+        width: 40%;
+    }
+}
+
+
+
+
+@media screen  and (min-width : 769px) and (max-width : 1024px){
+
+    ul{
+        display: flex;
+        list-style: none;
+        width: 96%;
+        padding: 3.3% 1% 1% 1%;
+    }
+    
+
+    
+    .links1{
+        display: flex;
+        position: relative;
+        left: 3%;
+        gap: 4%;
+        width: 35%;
+    }
+    
+    
+    .links2{
+        display:flex;
+        position: relative;
+        left: 27%;
+        gap: 4%;
+        width: 34%;
+    }
+
+    footer{
+        display: block;
+        font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
+        "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        padding: 8% 16% 2% 2%;
+    }
+
+   
+    
+    .Berlin{
+        position: relative;
+        left: 5%;
+    }
+
+    fLogo{
+        width: 5%;
+        display: block;
+        position: relative;
+        left: 15%;
+        height: 30px;
+    }
+
+
+    icons{
+        display: flex;
+        gap: 4%;
+        color:white;
+    }
+    
+    
+    twitter{
+        background-color: rgb(29, 139, 190);
+        width: 16%;
+        height: 28px;
+        padding: 7px;
+        font-size: 28px;
+    }
+    
+    youtube{
+        background-color: red;
+        width: 16%;
+        height: 28px;
+        padding: 7px;
+        font-size: 28px;
+    }
+    
+    instagram{
+        background-color: orangered;
+        width: 16%;
+        height: 28px;
+        padding: 7px;
+        font-size: 28px;
+    }
+    
+    facebook{
+        background-color: rgb(65, 65, 235);
+        width: 16%;
+        height: 28px;
+        padding: 7px;
+        font-size: 28px;
+    }
+
+    
+    .firstRow{
+       display:block;
+       
+    } 
+
+    .secondRow{
+        display:block;
+        
+     } 
+
+     .thirdRow{
+        display:block;
+        width: 10%;
+     } 
+
+    flexItem3{
+        width: 63%;
+        margin-left: 6%;
+        padding-bottom: 2%;
+    }
+    
+    flexItem1{
+        padding-bottom: 3%;
+
+    }
+
+    .for320{
+        display: none;
+    }
+
 
 }
