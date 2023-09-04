@@ -1,0 +1,31 @@
+*{
+    background-color: #000;
+    color: antiquewhite;
+}
+.wrapper{
+    text-align: center;
+    position: relative;
+    top: 70px;
+    left: 23%;
+    border: 1px solid silver;
+    width: 60%;
+    border-radius: 12px;
+}
+h1{
+    font-size: 150px;
+}
+
+p{
+    font-size: 30px;
+    position: relative;
+    bottom: 50px;
+}
+
+button{
+    width: 70px;
+    border: 1px solid silver;
+    position: relative;
+    bottom: 30px;
+    border-radius: 5px;
+    height: 30px;
+}

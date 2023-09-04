@@ -64,6 +64,32 @@ header a{
 .linkA a{
     color: blue;
 }
+/*body*/
+
+.intro{
+    display: flex;
+}
+
+.fig1{
+    text-align: start;
+}
+
+.row3{
+    display: flex;
+    gap: 14px;
+}
+
+.row4{
+    display: flex;
+}
+
+.row5{
+    display: flex;
+}
+
+.row6{
+    display: flex;
+}
 
 /*footer*/
 
