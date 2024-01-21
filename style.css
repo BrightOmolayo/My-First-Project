@@ -1290,8 +1290,21 @@ footer{
 
      .thirdRow{
         display:block;
-        width: 10%;
-     } 
+        width: 40%;
+        padding: 3%;
+        margin-top: 3%;
+    } 
+
+    .thirdRow a{
+        margin: 9% 5% 9% 5% ;
+    }
+
+    .Berlin{
+        display: none;
+    }
+    .fLogo{
+        display: none;
+    }
 
     flexItem3{
         width: 63%;
