@@ -1,16 +1,23 @@
-/* When the user clicks on the button, 
+/* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("increase-height");
-  document.getElementsByClassName("dropbtn headerLogo").style.color = "white"
+// eslint-disable-next-line no-unused-vars
+function myFunction () {
+  document.getElementById('myDropdown').classList.toggle('increase-height')
+  document.getElementsByClassName('dropbtn headerLogo').style.color = 'white'
+  const element = document.getElementById('dropbtn')
+  if (element.style.color === 'black') {
+    element.style.color = 'white'
+  } else {
+    element.style.color = 'red'
+  }
 }
 
 // Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
+window.onclick = function (event) {
   if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementById("myDropdown");
+    const dropdowns = document.getElementById('myDropdown')
 
-    dropdowns.classList.remove("increase-height")
+    dropdowns.classList.remove('increase-height')
     // var i;
     // for (i = 0; i < dropdowns.length; i++) {
     //   var openDropdown = dropdowns[i];
@@ -20,4 +27,3 @@ window.onclick = function(event) {
     // }
   }
 }
-
