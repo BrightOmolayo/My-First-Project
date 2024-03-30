@@ -516,7 +516,7 @@ footer{
     }
 
     .thirdRow{
-        display:block;
+        display:none;
         width: 40%;
         padding: 3%;
         margin-top: 3%;
@@ -575,17 +575,17 @@ footer{
 
     
     .firstRow{
-       display:block;
+       display:none;
        
     } 
 
     .secondRow{
-        display:block;
+        display:none;
         
      } 
 
      .thirdRow{
-        display:block;
+        display:none;
         width: 10%;
      } 
 
@@ -601,7 +601,7 @@ footer{
     }
 
     .for320{
-        display:block;
+        display:none;
     }
 
 
