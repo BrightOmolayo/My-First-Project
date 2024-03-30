@@ -1222,18 +1222,7 @@ footer{
         font-size: 15px;
     }*/
     
-    Berlin{
-        position: relative;
-        left: 15%;
-    }
-
-    fLogo{
-        width: 5%;
-        display: block;
-        position: relative;
-        left: 15%;
-        height: 30px;
-    }
+   
 
 
     .icons{
@@ -1288,10 +1277,23 @@ footer{
         
      } 
 
-     .thirdRow{
+    .thirdRow{
         display:block;
-        width: 10%;
-     } 
+        width: 70px;
+        padding: 2%;
+        margin-top: 3%;
+    } 
+
+    .thirdRow a{
+        margin: 9% 1% 9% 1% ;
+    }
+
+    .Berlin{
+        display: none;
+    }
+    .fLogo{
+        display: none;
+    }
 
     flexItem3{
         width: 63%;
