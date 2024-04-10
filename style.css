@@ -797,24 +797,17 @@ footer{
 
 
 /* mobile phone */
-
-
 @media screen  and (min-width : 320px) and (max-width : 480px){
-
     .wrapper{
         padding: 4%;
     }
-
      /* header*/
-
      .links{
         display: none;
     }
-
     .dropdown{
         display: block;
     }
-
     .dropdown-content {
         display: block;
         position: absolute;
