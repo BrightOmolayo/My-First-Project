@@ -3,8 +3,10 @@
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-  
+@font-face  {
+    font-family: futura;
+    src: url(./assets/FUTURA65MEDIUM.TTF);
+}
 img{
     width: 100%;
 }
@@ -18,46 +20,56 @@ img{
     height: 1px;
     background-color: #d3c8c8;
 }
-
-ul{
+nav{
     display: flex;
-    list-style: none;
-    width: 96%;
-    padding: 2% 1% 1% 1%;
-}
-
-header{
-    height: 80px;
-}
-
-header a{
-    text-decoration: none;
-    font-size: 17px;
+    justify-content: space-between;
+    padding: 1.5% 3%;
+    font-size: 19px;
+    font-family: futura;
     font-weight: 600;
-    font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
-    "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    padding-top: 5%;
+}
+nav a{
     color: #000;
+    text-decoration: none;
+}
+nav li{
+    list-style: none;
+}
+.ul{
+    width: 90%;
+    padding-left: 6%;
+    padding-top: 0.5%;
+}
+#navlinks{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 10; */
+}
+nav ul{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.links1{
+    display: flex;
+    justify-content: space-between;
+    width: 53%;
+    /* position: relative;
+    left: 4%;
+    gap: 6%;
+    width: 38%; */
+}
+.links2{
+    display:flex;
+    justify-content: space-between;
+    width: 25%;
+    /* position: relative;
+    left: 38%;
+    gap: 4%;
+    width: 22%; */
 }
 
 .headerImage1{
     display: none;
-}
-
-.links1{
-    display: flex;
-    position: relative;
-    left: 4%;
-    gap: 6%;
-    width: 38%;
-}
-
-.links2{
-    display:flex;
-    position: relative;
-    left: 38%;
-    gap: 4%;
-    width: 22%;
 }
 
 .more{
