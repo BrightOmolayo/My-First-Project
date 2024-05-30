@@ -27,8 +27,8 @@
                         <li>  <a href="../My-First-Project/links/help/help.html">Help</a></li>
                         <li class="more"> More 
                             <div class="plusMinusIcon">
-                               <div class="plusMinus plusMinus1"></div>
-                               <div class="plusMinus plusMinus2"></div>
+                                <img src="./images/plus-outline.svg" alt="plus Icon" class="plus">
+                                <img src="./images/minus.svg" alt="minus Icon" class="minus">
                             </div>
                         </li>
                     </ul>
@@ -60,9 +60,10 @@
         
         </nav>
         <div class="dropdown">
-            <a href="../My-First-Project/links/logo/logo.html"  class="headerLogo"><svg role="img" aria-labelledby="logo" xmlns="http://www.w3.org/2000/svg" width="55" height="25" viewBox="0 0 45 21"><title id="logo" >Ableton Homepage</title><path d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"></path></svg>
-            </a>
-           <button onclick="myFunction()" onclick="wwwWWW()" onclick="changeColor()"class="dropbtn" id="dropbtn"  > Menu<i class="fa fa-caret-down  down"></i></button>
+            <a href="../My-First-Project/links/logo/logo.html"  class="headerLogo">
+                <svg role="img" aria-labelledby="logo" xmlns="http://www.w3.org/2000/svg" width="55" height="25" viewBox="0 0 45 21"><title id="logo" >Ableton Homepage</title><path d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"></path></svg></a>
+            
+            <button onclick="myFunction()" onclick="wwwWWW()" onclick="changeColor()"class="dropbtn" id="dropbtn"  > Menu <div class="menuDropdownIcon"> <img src="./images/dropdown.svg" alt="menu drop Icon"></div></button>
             <div id="myDropdown" class="dropdown-content">
                 <a href="../My-First-Project/links/live/live.html">Live</a>
                 <a href="../My-First-Project/links/push/push.html">Push</a>
@@ -98,11 +99,10 @@
                 <a href="../My-First-Project/links/job/job.html">Jobs</a>
                 <a href="../My-First-Project/links/apprenticeship/apprenticeship.html" id="Apprenticeships">Apprenticeships</a>
             </div>
-            
             <div class="headerimg">
 
                 <h1 class="page1H1">Ableton</h1>
-                <img src="../My-First-Project/images/header (2).avif" alt="Companyimage" class="headerImage1">
+                <img src="./images/abletonMobile.jpg" alt="Companyimage" class="headerImage1">
                 <div class="headerImage">
                     <img src="../My-First-Project/images/header (5).jpg" alt="Companyimage">
                 </div>
@@ -128,14 +128,14 @@
                 <div class="traDiv">
                     <div class="machines">
                        
-                        <img src="../My-First-Project/images/photo-1 (2).jpg" alt="machines">
+                        <img src="./images/photo-1.jpg" alt="machines">
                         
                     </div>
                 </div>
     
                 <div class="yellowDiv">
                    <div  class="Result">
-                    <img src="../My-First-Project/images/photo-2.jpg" alt="Result">
+                    <img src="./images/photo-2.jpg" alt="Result">
                    
                    </div>
     
@@ -161,7 +161,7 @@
                  
                  <img src="../My-First-Project/images/poster-juanpe.jpg" alt="video">
                 
-                <figcaption>
+                <figcaption class="videoText">
                     Why Ableton - Juanpe Bolivar
                 </figcaption>
             </figure>
@@ -223,9 +223,9 @@
            </h3>
 
            <p class="p10">
-              We work hard to foster an environment where people can grow both personally and professionally, and we strive to create a wealth of opportunities to learn from and with each other.
+              We work hard to foster an environment where people can grow both personally <br>and professionally, and we strive to create a wealth of opportunities to learn from <br> and with each other. <br> <br>
 
-              Alongside an internal training program, employees are actively supported in acquiring new knowledge and skills, and coached on applying these in their daily work. In addition, staff-organized development and music salons are a chance to discuss new technologies, production techniques and best practices.
+              Alongside an internal training program, employees are actively supported in <br> acquiring new knowledge and skills, and coached on applying these in their daily <br> work. In addition, staff-organized development and music salons are a chance to <br> discuss new technologies, production techniques and best practices.
             </p>
 
 
@@ -247,31 +247,35 @@
             </div> 
                 
         </div>
-
         <h3 class="p11">
-            We want our employeeSigns to love it here. Since we&#8217re looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible.
+            We want our employees to love it here. Since we’re looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible.
         </h3>
 
         <p class="p12">
-            If you're joining us in Berlin, we'll help with relocation and paperwork. We&#8217ll even provide you with free German or English lessons. Plus, working in Germany means you can expect comprehensive health insurance for you and your family, as well as generous maternity and paternity leave. Office hours are flexible, but it&#8217s not all work; we have several company and team outings throughout the year as well as a variety of fun, informal small-group activities.
+            If you're joining us in Berlin, we'll help with relocation and paperwork. We&#8217ll even <br>provide you with free German or English lessons. Plus, working in Germany means <br> you can expect comprehensive health insurance for you and your family, as well <br> as generous maternity and paternity leave. Office hours are flexible, but it&#8217s not all <br> work; we have several company and team outings throughout the year as well as a <br> variety of fun, informal small-group activities.
         </p>
         
        <div class=" uuuuuuu">
 
         <div class="img11">
-
-            <img src="../My-First-Project/images/photo-8 (1).jpg" alt="img11">
+             <!-- for mobile display abletonImage1, for desktop display photo-8 -->
+             <div class="abletonImage1">
+                <img src="./images/abletonImage1.jpg" alt="">
+            </div>
+            <div class="image11">
+                <img src="./images/photo-8 (1).jpg" alt="img11">
+            </div>
   
          
            <div class="bue">
 
             <div class="p13">
                 <h3>
-                  We&#8217re really proud of the work we&#8217ve done so far. But there&#8217s so much more to come. If you&#8217d like to be a part of it, please join us.
+                  We&#8217re really proud of the  <br> work we&#8217ve done so far. <br> But there&#8217s so much more <br> to come. If you&#8217d like to be <br>a part of it, please join us.
                 </h3>
   
                 <h3 class="p14link">
-                    <a href="../My-First-Project/404.html">See latest jobs <i class="fa-solid fa-greater-than great"></i> </a>
+                    <a href="../My-First-Project/404.html">See latest jobs > <i class="fa-solid fa-greater-than great"></i> </a>
                 </h3>
           </div>
   
@@ -317,22 +321,23 @@
 
                         <p class="p15link">
                             <a href="../My-First-Project/404.html">  Register Live or Push ></a>
-                         </p>
+                        </p>
              
-                         <p class="p16link">
-                            <a href="../My-First-Project/404.html"> About Ableton</a>
-                         </p>
+                        <p class="p16link">
+                            <a href="../My-First-Project/404.html"> About Ableton ></a>
+                        </p>
              
-                         <p class="p17link">
-                             <a href="../My-First-Project/404.html">Jobs</a>
-                         </p>
+                        <p class="p17link">
+                             <a href="../My-First-Project/404.html">Jobs ></a>
+                        </p>
              
-                         <div class="icons">
-                             <i class="fa fa-facebook-official   facebook" aria-hidden="true"></i>
-                             <i class="fa fa-twitter  twitter" aria-hidden="true" ></i>
-                             <i class="fa fa-youtube-play youtube" aria-hidden="true"></i>
-                             <i class="fa fa-instagram  instagram" aria-hidden="true"></i>
-                         </div>
+                        <div class="icons">
+                            <img src="./images/facebook-color.svg" alt="facebook icon" class="facebook">
+                            <i class="fa-brands fa-x-twitter twitter" aria-hidden="true"></i>
+                            <img src="./images/youtube.svg" alt="Youtube Icon" class="youtube" aria-hidden="true">
+                            <img src="./images/instagram.svg" alt="instahram icon" class="instagram" aria-hidden="true">
+                            <img src="./images/tiktok.svg" alt="tiktok Icon" class="tiktok" aria-hidden="true">
+                        </div>
     
                     </div>
     
@@ -353,8 +358,8 @@
                           <a href="../My-First-Project/404.html"> Abletobn for Colloeges and Universities ></a>
                         </p>
                     </div>
-    
-                    <div class="flexItem5   flexItem">
+                    <!-- Email input  and sign up buton for desktop  -->
+                    <div class="flexItem5   flexItem ">
     
                         <h4  class="heading">
                             Sign up to Our newsletter
@@ -363,12 +368,11 @@
                         <p class="p27">
                             Enter your email address to stay up to date with the latest offers, tutorials, downloads, surveys and more.
                         </p>
-            
-                        <input type="text" placeholder="Email address" class="email">
-                        <button class="Sign">Sign up</button>
-            
-                            
-                       </div>
+                        <div id="emailAndSignUp">
+                            <input type="text" placeholder="Email Address" class="email">
+                            <button class="Sign">Sign up</button>
+                        </div>  
+                    </div>
 
                 </div>
 

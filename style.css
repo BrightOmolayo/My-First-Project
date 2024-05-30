@@ -1,11 +1,11 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:"futura";
 }
 @font-face  {
-    font-family: futura;
-    src: url(./assets/FUTURA65MEDIUM.TTF);
+    font-family: "futura";
+    src: url(./assets/FUTURA55REGULAR.TTF);
 }
 img{
     width: 100%;
@@ -80,24 +80,16 @@ nav ul{
     display: flex;
     font-size: 19px;
 }
-.plusMinus{
-    border: 2px solid olive;
-}
-.plusMinus1{
+.plus{
     height: 21px;
-    width: 1px;
-    background-color: #0b0b0a;
-    position: relative;
-    left: 49%;
-    margin-top: 4%;
+    font-size: 12px;
+    filter: invert(48%) sepia(69%) saturate(452%) hue-rotate(326deg) brightness(111%) contrast(100%);
 }
-.plusMinus2{
-    width: 15px;
-    height: 1px;
-    background-color: #ff815b;
-    position: relative;
-    bottom: 49%;
-    margin-left: 15%;
+.minus{
+    display:none;
+    height: 21px;
+    font-size: 12px;
+    filter: invert(48%) sepia(69%) saturate(452%) hue-rotate(326deg) brightness(111%) contrast(100%);
 }
 
 .linkA a{
@@ -107,7 +99,7 @@ nav ul{
 /*footer*/
 
 footer{
-    padding: 8%;
+    padding: 7%;
     font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
     "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
@@ -142,22 +134,25 @@ footer{
 
 .icons{
     display: flex;
-    gap: 4%;
+    gap: 1%;
 }
 
 
 .twitter{
-    background-color: rgb(29, 139, 190);
-    color:white;
+    background-color:none;
+    color:black;
     width: 18%;
     height: 40px;
     padding: 5px;
     font-size: 38px;
 }
-
+.tiktok{
+    width: 18%;
+    height: 40px;
+    padding: 5px;
+    font-size: 38px;
+}
 .youtube{
-    background-color: red;
-    color:white;
     width: 18%;
     height: 40px;
     padding: 5px;
@@ -165,8 +160,6 @@ footer{
 }
 
 .instagram{
-    background-color: orangered;
-    color:white;
     width: 18%;
     height: 40px;
     padding: 5px;
@@ -174,8 +167,6 @@ footer{
 }
 
 .facebook{
-    background-color: rgb(65, 65, 235);
-    color:white;
     width: 18%;
     height: 40px;
     padding: 5px;
@@ -225,19 +216,24 @@ footer{
 .for320{
     display: none;
 }
+#emailAndSignUp{
+    display: block;
+    margin-top: 30px;
+}
 
 .email{
-    width: 75%;
-    height: 37px;
+    width: 72%;
+    height: 38px;
     border: transparent;
     background-color: #dde2e1 ;
+    padding-left: 3%;
 }
 
 .Sign{
-    width: 22%;
-    height: 41px;
+    width: 23%;
+    height: 38px;
     position: relative;
-    right: 1.2%;
+    right: 1.1%;
     background-color: blue;
     color: #ffffff;
     border: transparent;
@@ -249,7 +245,7 @@ footer{
 }
 
 .flexItem5{
-    padding-top: 1%;
+    padding-top: 3%;
 }
 
 .flexItem4{
@@ -286,6 +282,7 @@ footer{
     left: 1.5%; 
     width: 30%;
     padding: 1.6% 0% 0% 1%;
+    z-index: 99;
 }
 #about{
     color: #fd5948;
@@ -333,21 +330,26 @@ footer{
 
 .middleImg{
     display: flex;
-    padding: 2%;
+    padding: 0%;
 }
 
 .yellowDiv{
     background-color: #FBFFA7;
     position: relative;
-    left:1%;
-    padding: 15% 15% 17% 15%;
+    left:0%;
+    padding: 19% 10% 15% 13%;
+    width: 50%;
+}
+.Result{
+    position: relative;
+    left: 9%;
 }
 
 .traDiv{
 
     position: relative;
     left:8%;
-    padding-top: 9%;
+    padding-top: 8%;
     z-index: 99;
 
 }
@@ -367,9 +369,11 @@ footer{
 
 .video{
 
-    padding: 1% 15% 6% 15%;
+    padding: 2% 26% 6% 25%;
 }
-
+.videoText{
+    font-size: small;
+}
 .p5{
     line-height: 40px;
     padding: 6% 23% 0% 25%;
@@ -386,6 +390,7 @@ footer{
 .threeIn1{
 
     display: flex;
+    margin-bottom: 40px;
 }
 
 .img7{
@@ -433,13 +438,14 @@ footer{
 
 .p9{
     line-height: 40px;
-    padding: 6% 15% 0% 15%;
-
+    padding: 6% 23% 0% 25%;
+    font-size: 29px;
 }
 
 .p10{
-    padding: 1% 15% 6% 15%;
-    line-height: 40px;
+    padding: 2% 15% 6% 25%;
+    font-size: 18px;
+    line-height: 35px;
 }
 
 .twoInOne{
@@ -448,9 +454,9 @@ footer{
 }
 
 .purpleBackground{
-    width: 70%;
-    background-color: rgb(187, 170, 189);
-    height: 700px;
+    width: 67%;
+    background-color: #d5b3ff;
+    height: 800px;
     position: relative;
     left: 17%;
 }
@@ -458,26 +464,27 @@ footer{
 .img9{
     z-index: 99;
     position: absolute;
-    top: 25%;
-    left: 10%;
+    top: 33%;
+    left: 8%;
 }
 
 .img10{
     z-index: 99;
     position: absolute;
-    right: 4%;
+    right: 0%;
     top: 20%;
 }
 
 .p11{
     line-height: 40px;
-    padding: 6% 15% 0% 15%;
-
+    padding: 6% 23% 0% 25%;
+    font-size: 29px;
 }
 
 .p12{
-    padding: 1% 15% 6% 15%;
-    line-height: 40px;
+    padding: 2% 15% 6% 25%;
+    font-size: 18px;
+    line-height: 35px;
 }
 
 .uuuuuuu{
@@ -485,25 +492,34 @@ footer{
 }
 
 .img11{
-    padding: 3.2% 8.4% 0% 8.4%;
+    display: flex;
+    padding: 0% 8.4% 0% 8.4%;
     z-index: 99;
+    margin-bottom:9%;
+}
+.image11{
+    display: none;
+}
+.abletonImage1{
+    width:54%;
+    display: block;
 }
 
 .bue{
-    width: 83,1%;
-    background-color:rgb(159, 195, 218);
-    padding: 0% 8.5% 3.5% 8.4%;
+    width: 50%;
+    background-color:#b1c5ff;
     position: relative;
-    bottom: 5px;
-    height: 300px;
-    margin-bottom: 15%;
+    bottom: 0px;
+    height: 400px;
+    margin-bottom: 0%;
 }
 
 .p13{
 
     position: relative;
-    top: 105px;
-
+    top: 105px; 
+    text-align: center;
+    font-size: 24px;
 }
 
 .p14link{
@@ -854,15 +870,21 @@ footer{
 
 /* mobile phone */
 @media screen  and (min-width : 320px) and (max-width : 480px){
-    .wrapper{
-        padding: 4%;
+   .wrapper{
+        padding: 0px;
     }
-     /* header*/
-     .links{
+    nav{
+        display: none;
+    }
+    .menuDropdownIcon{
+        width: 16px;
+    }
+      /* header*/
+   .links{
         display: none;
     }
     .dropdown{
-        display: block;
+        display: flex;
     }
     .dropdown-content {
         display: block;
@@ -885,11 +907,10 @@ footer{
         border:none;
         background-color: transparent;
         z-index: 2;
-        font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
-        "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 26px;
-        font-weight: 400;
+        font-size: 22px;
+        font-weight: 600;
         position: relative;
+        display: flex;
     }
 
 
@@ -913,7 +934,7 @@ footer{
     }
 
     .headerLogo{
-        padding-left: 6%;
+        padding: 6% 0% 0% 6%;
         z-index: 100;
     }
 
@@ -921,28 +942,29 @@ footer{
     .link3 a{
         color: #000;
         text-decoration: none;
-        font-size: 17px;
-        margin:  0% 5% 0% 5%;
+        font-size: 15px;
+        margin:  3% 1% 3% 1%;
     }
     
     .link3{
         position: relative;
         left: 1.5%; 
-        width: 98%;
+        width: 78%;
         padding-top: 1.3%;
         padding-bottom: 2%;
+        margin:  3% 1% 3% 1%;
+        padding: 15px 0px;
     }
-
     .headerImage1{
         display: block;
     }
     
     .page1H1{
-        font-size: 40px;
+        font-size: 76px;
         position: absolute;
         z-index: 0;
         top: 38%;
-        left:22%
+        left:16%
     }
 
     .headerImage{
@@ -950,72 +972,81 @@ footer{
     }
     
     .headerimg{
-        padding: 2% 7.3% 2% 7.3%;
+        padding: 2% 7% 2% 7%;
         position: relative;
         text-align: center;
         color: #eb7652;
     }
     
     .p1{
-        line-height: 40px;
-        padding: 8% 11% 2% 11%;
-        font-size: small;
+        line-height: 28px;
+        padding: 8% 7% 2% 7%;
+        font-size: 18px;
     }
     
     .p2{
-        line-height: 40px;
-        padding: 8% 11% 2% 11%;
-        font-size: small;
+        line-height: 23px;
+        padding: 3% 7% 2% 7%;
+        font-size: 18px;
     }
     
     .middleImg{
         display: flex;
-        padding: 2%;
+        padding-top: 20px;
     }
     
     .yellowDiv{
         background-color: #FBFFA7;
+        padding: 50px 0px;
+        width: 58%;
         position: relative;
-        left:1%;
-        padding: 15% 15% 17% 15%;
+        left: 0%;
+        margin-left: 0%;
     }
     
     .traDiv{
-    
         position: relative;
-        left:8%;
-        padding-top: 9%;
+        left:9%;
+        padding-top: 21px;
         z-index: 99;
-    
+        width: 44%;
     }
-    
+    .machines{
+        position: relative;
+        left: 7;
+    }
+    .Result{
+        width: 57%;
+        position: relative;
+        left: 50px;
+    }
     .p3{
-        line-height: 40px;
-        padding: 8% 11% 2% 11%;
-        font-size: small;
+        line-height: 28px;
+        padding: 8% 7% 2% 7%;
+        font-size: 18px;
     }
     
     .p4{
-        line-height: 40px;
-        padding: 8% 11% 2% 11%;
-        font-size: small;
+        line-height: 23px;
+        padding: 3% 7% 2% 7%;
+        font-size: 18px;
     }
     
     .video{
     
-        padding: 1% 15% 6% 15%;
+        padding: 8%;
     }
     
     .p5{
-        line-height: 40px;
-        padding: 8% 11% 2% 11%;
-        font-size: small;
+        line-height: 28px;
+        padding: 8% 7% 2% 7%;
+        font-size: 18px;
     }
     
     .p6{
-        line-height: 40px;
-        padding: 8% 11% 2% 11%;
-        font-size: small;
+        line-height: 23px;
+        padding: 3% 7% 2% 7%;
+        font-size: 18px;
     }
     
     .threeIn1{
@@ -1049,15 +1080,15 @@ footer{
     
     
     .p7{
-        line-height: 40px;
-        padding: 8% 11% 2% 11%;
-        font-size: small;
+        line-height: 28px;
+        padding: 2% 7% 2% 7%;
+        font-size: 18px;
     }
     
     .p8{
-        line-height: 40px;
-        padding: 8% 11% 2% 11%;
-        font-size: small;
+        line-height: 23px;
+        padding: 3% 7% 5% 7%;
+        font-size: 18px;
     }
     
     .img8{
@@ -1067,57 +1098,63 @@ footer{
     }
 
     .p9{
-        line-height: 40px;
-        padding: 8% 11% 2% 11%;
-        font-size: small; 
+        line-height: 28px;
+        padding: 8% 7% 2% 7%;
+        font-size: 18px; 
     }
     
     .p10{
-        line-height: 40px;
-        padding: 8% 11% 2% 11%;
-        font-size: small;
+        line-height: 23px;
+        padding: 3% 7% 6% 7%;
+        font-size: 18px;
     }
     
     .twoInOne{
         display: flex;
-        position: relative;
-        padding: 5% 0% 5% 0%;
+        position:relative;
+        margin: 5% 0% 5% 0%;
+        border: 2px solid forestgreen;
     }
     
     .purpleBackground{
-        width: 76%;
-        background-color: rgb(199, 142, 247);
-        height: 220px;
-        position: absolute;
+        width: 70%;
+        background-color: #d5b3ff;
+        height: 200px;
+        position: relative;
         left: 15%;
     }
-    
+    br{
+        display: none;
+    }
     .img9{
         z-index: 99;
         position: relative;
         top: 45px;
-        left: 1%;
+        left: 0%;
         margin: 2%;
+        width: 20%;
+        border: 2px solid darkblue;
     }
     
     .img10{
         z-index: 99;
         position: relative;
-        left: 6%;
-        margin: 8% 0% 4% 6%;
+        left: 0%;
+        width: 30%;
+        margin: 0% 0% 0% 0%;
+        border: 2px solid red;
     }
     
     .p11{
-        line-height: 40px;
-        padding: 8% 11% 2% 11%;
-        font-size: small;
-    
+        line-height: 28px;
+        padding: 8% 7% 2% 7%;
+        font-size: 18px; 
     }
     
     .p12{
-        line-height: 40px;
-        padding: 8% 11% 2% 11%;
-        font-size: small;
+        line-height: 23px;
+        padding: 3% 7% 6% 7%;
+        font-size: 18px;
     }
     
     .uuuuuuu{
