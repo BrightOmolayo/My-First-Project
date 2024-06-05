@@ -27,8 +27,8 @@
                         <li>  <a href="../My-First-Project/links/help/help.html">Help</a></li>
                         <li class="more"> More 
                             <div class="plusMinusIcon">
-                                <img src="./images/plus-outline.svg" alt="plus Icon" class="plus" id="plus">
-                                <img src="./images/minus.svg" alt="minus Icon" class="minus">
+                                <img src="./images/plus-outline.svg" alt="plus Icon" class="plus" id="plus" onclick="more()" style="display: block;">
+                                <img src="./images/minus.svg" alt="minus Icon" class="minus" style="display: none;" id="minus" onclick="more()">
                             </div>
                         </li>
                     </ul>
@@ -57,7 +57,7 @@
                                   
             </div>   
         </nav>
-        <div class="moreDropdown">
+        <div class="moreDropdown" style="display: none;" id="moreDropdown">
             <div class="moreDropdownContent1">
                 <h2 class="moreDropdownh3" >More on Ableton.com:</h2>
                 <div class="contentOneContent">
@@ -292,70 +292,52 @@
             If you're joining us in Berlin, we'll help with relocation and paperwork. We&#8217ll even <br>provide you with free German or English lessons. Plus, working in Germany means <br> you can expect comprehensive health insurance for you and your family, as well <br> as generous maternity and paternity leave. Office hours are flexible, but it&#8217s not all <br> work; we have several company and team outings throughout the year as well as a <br> variety of fun, informal small-group activities.
         </p>
         
-       <div class=" uuuuuuu">
+    <div class="uuuuuuu">
 
         <div class="img11">
              <!-- for mobile display abletonImage1, for desktop display photo-8 -->
-             <div class="abletonImage1">
+             <div class="abletonImage1" >
                 <img src="./images/abletonImage1.jpg" alt="">
             </div>
+            <div class="toughTime">
+                <img src="./images/photo-8 (2).jpg" alt="">
+            </div>
+
             <div class="image11">
                 <img src="./images/photo-8 (1).jpg" alt="img11">
             </div>
   
-         
-           <div class="bue">
+        </div>
+        <div class="bue">
 
             <div class="p13">
                 <h3>
                   We&#8217re really proud of the  <br> work we&#8217ve done so far. <br> But there&#8217s so much more <br> to come. If you&#8217d like to be <br>a part of it, please join us.
                 </h3>
-  
                 <h3 class="p14link">
                     <a href="../My-First-Project/404.html">See latest jobs <i class="fa-solid fa-angle-right"></i> </a>
                 </h3>
-          </div>
-  
-           </div>
-
+            </div>
         </div>
-        
-
-        
-
-        <div class="secondUnderline">
-
-        </div>
-
+    </div>
+    <div class="secondUnderline"></div>
         <footer>
-
-
             <h1 class="fH1">
                 Ableton
             </h1>
-
-            
             <div class="container">
-
                 <div class="firstRow">
-
                     <div class="for320">
-
                         <h4  class="heading">
                             Sign up to Our newsletter
                         </h4>
-
                         <p class="p27">
                             Enter your email address to stay up to date with the latest offers, tutorials, downloads, surveys and more.
-                        </p>
-            
+                        </p>            
                         <input type="text" placeholder="Email address" class="email">
                         <button class="Sign">Sign up</button>
-
                     </div>
-
                     <div class="flexItem1  flexItem">
-
                         <p class="p15link">
                             <a href="../My-First-Project/404.html">  Register Live or Push<i class="fa-solid fa-angle-right"></i></a>
                         </p>
@@ -487,6 +469,12 @@
       
                      <img src="../My-First-Project/links/logo/logo imgs/ableton logo.svg" alt="" class="fLogo">
                 </div>
+            </div>
+            <div class="forTabsignature">
+                 <img src="../My-First-Project/links/logo/logo imgs/ableton logo.svg" alt="" class="forTabfLogo" style="width: 50px;">
+                 <p class="forTabBerlin">
+                    Made in Berlin
+                 </p>
             </div>
         </footer>
        

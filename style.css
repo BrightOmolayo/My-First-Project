@@ -127,8 +127,8 @@ nav ul{
     filter: invert(48%) sepia(69%) saturate(452%) hue-rotate(326deg) brightness(111%) contrast(100%);
 }
 .minus{
-    display:none;
     height: 21px;
+    margin-top: 4px;
     font-size: 12px;
     filter: invert(48%) sepia(69%) saturate(452%) hue-rotate(326deg) brightness(111%) contrast(100%);
 }
@@ -568,21 +568,20 @@ footer{
 }
 
 .uuuuuuu{
-    display: block;
+    display: flex;
+    padding: 1% 8%;
 }
-
 .img11{
     display: flex;
-    padding: 0% 8.4% 0% 8.4%;
+    padding: 0%;
     z-index: 99;
     margin-bottom:9%;
+    width: 50%;
 }
 .image11{
     display: none;
 }
 .abletonImage1{
-    width:51%;
-    display: block;
 }
 
 .bue{
@@ -601,7 +600,9 @@ footer{
     text-align: center;
     font-size: 24px;
 }
-
+.forTabsignature{
+    display: none;
+}
 .p14link{
 
     padding-top:3%;
@@ -615,10 +616,9 @@ footer{
 .great{
     font-size: 1%;
 }
-
-
-
-
+.toughTime{
+    display: none;
+}
 /*desktop and large screen*/
 
 @media screen  and (min-width : 1025px) and (max-width : 1200px){
@@ -855,7 +855,9 @@ footer{
         font-size: 1%;
     }
     
-    
+    .forTabsignature{
+        display: none;
+    }
 
 
 
@@ -946,8 +948,6 @@ footer{
     }
 }
 
-
-
 /* mobile phone */
 @media screen  and (min-width : 320px) and (max-width : 480px){
    .wrapper{
@@ -992,7 +992,9 @@ footer{
         position: relative;
         display: flex;
     }
-
+    .forTabsignature{
+        display: none;
+    }
 
     .dropdown-content a {
         color: whitesmoke;
@@ -1375,22 +1377,6 @@ footer{
         width: 70%;
     }
 
-    /*.thirdRow{
-        display: flex;
-        gap: 2%;
-        font-weight: 700;
-        width: 40%;
-    }
-    
-    .thirdRow a{
-        color: #000;
-        text-decoration: none;
-        font-size: 15px;
-    }*/
-    
-   
-
-
     .icons{
         display: flex;
         gap: 3%;
@@ -1487,7 +1473,91 @@ footer{
         width: 94%;
         padding: 5% 1% 1% 2%;
     }
+    .menuDropdownIcon{
+        width: 16px;
+    }
+    br{
+        display: none;
+    }
+      /* header*/
+   .links{
+        display: none;
+    }
+    .dropdown{
+        display: flex;
+    }
+    .dropdown-content {
+        display: block;
+        position: absolute;
+        top: -790px;
+        background-color:#626265;
+        width: 100%;
+        overflow:auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index:1 ;
+        transition: 3.1s ease-in-out;
+        overflow: hidden;
+        padding-left: 5%;
+        padding-bottom: 3%;
+    }
+
+    .dropbtn {
+        padding: 5%  5% 5% 8%;
+        font-size: 20px;
+        border:none;
+        background-color: transparent;
+        z-index: 2;
+        font-size: 22px;
+        font-weight: 600;
+        position: relative;
+        display: flex;
+    }
+
+
+    .dropdown-content a {
+        color: whitesmoke;
+        padding: 7px 5px;
+        text-decoration: none;
+        display: block;
+        position: relative;
+    }
+      
+    .show {display: block;}
+
+   .increase-height{
+        top: 0px;
+        padding-top: 40px;
+    }
+
+    .down{
+        font-size: 4%;
+    }
+
+    .headerLogo{
+        padding: 6% 0% 0% 6%;
+        z-index: 100;
+    }
+
+
+    .link3 a{
+        color: #000;
+        text-decoration: none;
+        font-size: 15px;
+        margin:  3% 1% 3% 1%;
+    }
     
+    .link3{
+        position: relative;
+        left: 1.5%; 
+        width: 78%;
+        padding-top: 1.3%;
+        padding-bottom: 2%;
+        margin:  3% 1% 3% 1%;
+        padding: 15px 0px;
+    }
+    nav{
+        display: none;
+    }
     .more{
         display: none;
     }
@@ -1522,19 +1592,18 @@ footer{
     }
     
     .p1{
-        line-height: 40px;
-        padding: 6% 15% 0% 15%;
-        font-size: small;
-    
+        line-height: 36px;
+        padding: 6% 17% 0% 16%;
+        font-size: 20px;
     }
     
     .p2{
-        padding: 1% 15% 6% 15%;
-        line-height: 40px;
-        font-size: small;
+        padding: 2% 13% 6% 16%;
+        line-height: 26px;
+        font-size: 17px;
     }
     
-    .middleImg{
+    /* .middleImg{
         display: flex;
         padding: 2%;
     }
@@ -1543,7 +1612,7 @@ footer{
         background-color: #FBFFA7;
         position: relative;
         right:2%;
-        padding: 15% 15% 17% 15%;
+        padding: 15% 18% 17% 15%;
     }
     
     .traDiv{
@@ -1552,19 +1621,61 @@ footer{
         left:8%;
         padding-top: 9%;
         z-index: 99;
+    } */
+
+    .middleImg{
+        display: flex;
+        padding: 0%;
+    }
     
+    .yellowDiv{
+        background-color: #FBFFA7;
+        position: relative;
+        left:0%;
+        padding: 17.4% 10% 15% 13%;
+        width: 50%;
+    }
+    .Result{
+        position: relative;
+        left: 12%;
+        width: 80%;
+    }
+    .VideoPlay{
+        position: relative;
+        bottom: 120px;
+        display: none;
+    }
+    #VideoPlayIcon{
+        width: 10%;
+        color: blue;
+        height: 60px;
+        background-color: #eb7652;
+        filter: invert(13%) sepia(73%) saturate(4921%) hue-rotate(241deg) brightness(76%) contrast(140%);
+    }
+    .videoText{
+        font-size: medium;
+        font-weight: 600;
+        padding-left: 3%;
+    }
+    .traDiv{
+        position: relative;
+        left:8%;
+        padding-top: 8%;
+        z-index: 99;
+        width: 50%;
     }
     
     .p3{
-        line-height: 40px;
-        padding: 6% 15% 0% 15%;
-        font-size: medium;
+        line-height: 36px;
+        padding: 6% 17% 0% 16%;
+        font-size: 20px;
     }
     
     .p4{
-        padding: 1% 15% 6% 15%;
-        line-height: 40px;
-        font-size: medium;
+        padding: 2% 11% 6% 16%;
+        line-height: 26px;
+        font-size: 17px;
+        letter-spacing: 0px;
     }
     
     .video{
@@ -1573,15 +1684,15 @@ footer{
     }
     
     .p5{
-        line-height: 40px;
-        padding: 6% 15% 0% 15%;
-        font-size: small;
+        line-height: 36px;
+        padding: 6% 17% 0% 16%;
+        font-size: 20px;
     }
     
     .p6{
-        padding: 1% 15% 6% 15%;
-        line-height: 40px;
-        font-size: medium;
+        padding: 2% 13% 6% 16%;
+        line-height: 26px;
+        font-size: 17px;
     }
     
     .threeIn1{
@@ -1615,15 +1726,15 @@ footer{
     
     
     .p7{
-        line-height: 40px;
-        padding: 6% 15% 0% 15%;
-        font-size: medium;
+        line-height: 36px;
+        padding: 6% 10% 0% 16%;
+        font-size: 20px;
     }
     
     .p8{
-        padding: 1% 15% 6% 15%;
-        line-height: 40px;
-        font-size: medium;
+        padding: 2% 13% 6% 16%;
+        line-height: 26px;
+        font-size: 18px;
     }
     
     .img8{
@@ -1633,15 +1744,15 @@ footer{
     }
     
     .p9{
-        line-height: 40px;
-        padding: 6% 15% 0% 15%;
-        font-size: medium;
+        line-height: 36px;
+        padding: 6% 17% 0% 16%;
+        font-size: 20px;
     }
     
     .p10{
-        padding: 1% 15% 6% 15%;
-        line-height: 40px;
-        font-size: medium;
+        padding: 2% 13% 6% 16%;
+        line-height: 26px;
+        font-size: 17px;
     }
     
     /*.twoInOne{
@@ -1674,96 +1785,103 @@ footer{
         display: flex;
         position: relative;
         padding: 12px 0% 13px 0%;
+        margin-top: 70px;
     }
     
     .purpleBackground{
-        width: 76%;
-        background-color: rgb(199, 142, 247);
-        height: 390px;
+        width: 67%;
+        background-color: #d5b3ff;
+        height: 480px;
         position: absolute;
         left: 15%;
-        bottom: 14%;
+        bottom: 0%;
     }
     
     .img9{
         z-index: 99;
         position: relative;
-        top: 45px;
-        left: 1%;
+        top: 95px;
+        left: 6%;
         margin: 2%;
         bottom: 13px;
+        width: 34%;
     }
     
     .img10{
         z-index: 99;
         position: relative;
-        right:0.4px ;
-        margin: 8% 0% 4% 6%;
-        
-    }
-
-
-    
+        left: 17% ;
+        margin: 8% 0% 9% 6%;   
+        width: 40%; 
+    } 
     .p11{
-        line-height: 40px;
-        padding: 6% 15% 0% 15%;
-        font-size: medium;
+        line-height: 33px;
+        padding: 8% 15% 0% 14%;
+        font-size: 19px;
     }
     
     .p12{
-        padding: 1% 15% 6% 15%;
-        line-height: 40px;
-        font-size: medium;
+        padding: 1% 15% 6% 14%;
+        line-height: 29px;
+        font-size: 18px;
     }
     
     .uuuuuuu{
         display: block;
+        padding: 1% 6.4%;
     }
-    
-    .img11{
+    .abletonImage1{
+        display: none;
         padding: 3.2% 8.4% 0% 8.4%;
         z-index: 99;
     }
-    
+    .image11{
+        display: none;
+    }
+    .toughTime{
+        display: block;
+    }
+    .img11{
+        display: block;
+        width: 100%;
+        margin-bottom:0%;
+    }
     .bue{
         width: 83.1%;
-        background-color:rgb(159, 195, 218);
+        background-color:#b1c5ff;
         padding: 0% 8.5% 3.5% 8.4%;
         position: relative;
         bottom: 5px;
-        height: 300px;
-        margin-bottom: 15%;
+        height: 250px;
+        margin-bottom: 8%;
     }
-    
+    @font-face {
+        font-family: "futuraThinner";
+        src: url("./assets/FUTURA45LIGHT.TTF");
+    }
     .p13{
-    
         position: relative;
-        top: 105px;
-        font-size: small;
+        top: 5px;
+        padding: 8% 0% 0% 0.5%;
+        text-align: center;
+        font-size: 19px;
+        line-height: 37px;
+        font-weight: lighter;
     }
-    
     .p14link{
-    
         padding-top:3%;
+        text-align: left;
     }
-    
     .p14link a{
-    
         text-decoration: none;
-    }
-    
+    }   
     .great{
         font-size: 1%;
     }
-    
-    
-
     .Berlin{
         position: relative;
         left: 5%;
     }
-    
-
     .fLogo{
         width: 5%;
         display: block;
@@ -1771,16 +1889,15 @@ footer{
         left: -1%;
         height: 30px;
     }
-
     .for320{
-        display: none;
+        display: block;
     }
-
     .links2{
         display:none;
     }
-
-
+    .flexItem5{
+        display: none;
+    }
     .links1{
         display: flex;
         position: relative;
@@ -1788,55 +1905,59 @@ footer{
         gap: 8%;
         width: 40%;
     }
-
     footer{
         display: block;
         font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
         "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 16px;
-        padding: 8% 3% 2% 3%;
+        padding: 8% 4% 2% 4%;
     }
-
     .fH1{
         font-size: 35px;
         font-weight: 600;
         padding: 3% 4% 0% 4%;
     }
-    
-    
     .firstRow{
         display: flex;
         justify-self: center;
         align-items: center;
         gap: 8%;
         padding-bottom: 2%;
-        line-height: 35px;
-        padding: 8% 1% 2% 3%;
+        line-height: 25px;
+        padding: 2% 1% 2% 3%;
         font-size: large;
     }
-    
-    .email{
-        width: 50%;
-        height: 45px;
-        border: transparent;
-        background-color: #dde2e1 ;
-        padding-left: 7%;
-        margin-top: 5%;
-        font-size: large;
-    }
-
-    .Sign{
-        width: 40%;
-        height: 44px;
+    .p27{
+        line-height: 22px;
+        padding-top: 0px;
         position: relative;
-        right: 2%;
+        bottom: 12px;
+    }
+    #emailAndSignUp{
+        display: block;
+        margin-top: 30px;
+    }
+    .email{
+        width: 79%;
+        height: 37px;
+        border: transparent;
+        background-color: #eeeeee ;
+        padding-left: 3%;;
+        /* margin-top: 0%;*/
+        font-size: large; 
+    }
+    .Sign{
+        width: 15%;
+        height: 37px;
+        position: relative;
+        right: 1%;
+        top: 0px;
         background-color: blue;
         color: #ffffff;
         border: transparent;
-        padding: 2%;
+        padding: 0%;
         font-size: large;
     }
-    
     .flexItem1{
         width: 90%;
         padding-top: 5%;
@@ -1845,9 +1966,12 @@ footer{
     .flexItem3{
         width: 95%;
         font-size: large;
+        position: relative;
+        right: 3%;
+        padding-top: 1%;
     }
     .heading{
-        padding: 4%  3% 2% 0%;
+        padding: 1%  3% 1% 0%;
         font-size: medium;
         font-weight: 600;
     }
@@ -1906,50 +2030,53 @@ footer{
         left: 15%;
         height: 30px;
     }
-
-
+    .fa-solid{
+        font-size: 11px;
+        font-weight: 600;
+    }
     .icons{
         display: flex;
-        gap: 3%;
+        gap: 2%;
         color:white;
-        padding-bottom: 3%;
-        padding-top: 5%;
-    }
-    
-    
+        padding-right: 0px;
+        padding-top: 8px;
+        width: 41%;
+        position: relative;
+        right: 3%;
+    }  
     .twitter{
-        background-color: rgb(29, 139, 190);
-        width: 12.5%;
+        width: 15%;
         height: 27px;
         padding: 7px;
         font-size: 30px;
     }
     
     .youtube{
-        background-color: red;
-        width: 12.5%;
+        width: 15%;
         height: 27px;
         padding: 6px  8px 8px 5px;
         font-size: 30px;
     }
     
     .instagram{
-        background-color: orangered;
-        width: 12.4%;
+        width:15%;
         height: 27px;
         padding: 6px 6px 8px 8px;
         font-size: 30px;
     }
     
     .facebook{
-        background-color: rgb(4, 102, 231);
-        width: 12.4%;
+        width: 15%;
         height: 27px;
-        padding: 6px 6px 8px 8px;
+        padding: 6px 0px 8px 8px;
         font-size: 30px;
     }
-
-    
+    .tiktok{
+        width: 15%;
+        height: 40px;
+        padding: 5px;
+        font-size: 38px;
+    }
     .firstRow{
        display:block;
        
@@ -1957,32 +2084,56 @@ footer{
 
     .secondRow{
         display:block;
-        
+        padding: 1% 0% 0% 3%;
     } 
 
     .thirdRow{
         display:block;
-        width: 15%;
-        padding-left: 3%;
-        
+        width: 40%;
+        padding-left: 3%; 
     } 
-
+    .contactLinks{
+        width: 30%;
+        display: block;
+        padding: 0% 20% 0% 0%;
+    }
+    .contactLinks a{
+        margin-left: 0px;
+        margin-top: 19px;
+        font-size: 17px;
+        font-weight: bold;
+    }
     .flexItem4{
         width: 79%;
         padding-bottom: 30px;
+        font-size: 18px;
+        font-weight: 500;
     }
 
     .lang{
-        width: 30%;
+        width: 22%;
+        font-size: 17px;
+        font-weight: 600;
     }
 
     .location{
         width: 40%;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .signature{
+        display: none;
+    }
+    .forTabsignature{
+        display: flex;
+        width: 30%;
+        padding: 8% 3%;
+        font-weight: 600;
+    }
+    .forTabsignature p{
+        margin-left: 7%;
     }
 }
-
-
-
 
 @media screen  and (min-width : 769px) and (max-width : 1024px){
 
