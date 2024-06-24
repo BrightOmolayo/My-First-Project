@@ -67,10 +67,6 @@ nav ul{
     display:flex;
     justify-content: space-between;
     width: 25%;
-    /* position: relative;
-    left: 38%;
-    gap: 4%;
-    width: 22%; */
 }
 .headerImage{
     margin-left: 0.9%;
@@ -258,7 +254,9 @@ footer{
     justify-content: space-between;
     font-weight: medium;
 }
-
+.headerImgTab{
+    display: none;
+}
 .thirdRow a{
     color: #000;
     text-decoration: none;
@@ -269,6 +267,13 @@ footer{
 }
 .contactLinks a{
     margin-left: 10px;
+}
+.contactLinks ul{
+    display: flex;
+    justify-content: space-between;
+}
+.contactLinks li{
+    list-style: none;
 }
 .for320{
     display: none;
@@ -434,17 +439,7 @@ footer{
 
     padding: 2% 26% 6% 25%;
 }
-.VideoPlay{
-    position: relative;
-    bottom: 120px;
-}
-#VideoPlayIcon{
-    width: 130%;
-    color: blue;
-    height: 60px;
-    background-color: #eb7652;
-    filter: invert(13%) sepia(73%) saturate(4921%) hue-rotate(241deg) brightness(76%) contrast(140%);
-}
+
 .videoText{
     font-size: small;
 }
@@ -581,8 +576,6 @@ footer{
 .image11{
     display: none;
 }
-.abletonImage1{
-}
 
 .bue{
     width: 50%;
@@ -625,7 +618,9 @@ footer{
 
     /* desktop and large screen*/
 
-
+    .headerImgTab{
+        display: none;
+    }
     ul{
         display: flex;
         list-style: none;
@@ -950,7 +945,10 @@ footer{
 
 /* mobile phone */
 @media screen  and (min-width : 320px) and (max-width : 480px){
-   .wrapper{
+  .headerImgTab{
+    display: none;
+  }
+    .wrapper{
         padding: 0px;
     }
     nav{
@@ -993,7 +991,12 @@ footer{
         display: flex;
     }
     .forTabsignature{
-        display: none;
+        display: flex;
+        width: 50%;
+        margin-top: 30px;
+        justify-content: space-between;
+        padding-left: 3%;
+        margin-bottom: 30px;
     }
 
     .dropdown-content a {
@@ -1242,64 +1245,81 @@ footer{
     }
     .uuuuuuu{
         display: block;
+        padding: 1% 7.4%;
+    }
+    
+    .toughTime{
+        display: block;
+    }
+    .toughtImg{
+        display: block;
+    }
+    .img11{
+        display: block;
+        width: 100%;
+        margin-bottom:0%;
+    }
+    .abletonImage1{
+        display: none;
+    }
+    .bue{
+        width: 83.1%;
+        background-color:#b1c5ff;
+        padding: 0% 8.5% 3.5% 8.4%;
+        position: relative;
+        bottom: 5px;
+        height: 230px;
+        margin-bottom: 8%;
+    }
+    @font-face {
+        font-family: "futuraThinner";
+        src: url("./assets/FUTURA45LIGHT.TTF");
+    }
+    .p13{
+        position: relative;
+        top: 5px;
+        padding: 8% 1% 0% 0%;
+        text-align: center;
+        font-size: 14px;
+        line-height: 29px;
+        font-weight: lighter;
+        letter-spacing: 0.5px;
     }
     
     .img11{
-        padding: 3.2% 8.4% 0% 8.4%;
+        padding: 0%;
         z-index: 99;
     }
-    
-    .bue{
-        width: 83,1%;
-        background-color:rgb(159, 195, 218);
-        padding: 0% 8.5% 4.5% 8.4%;
-        position: relative;
-        bottom: 5px;
-        height: 460px;
-        margin-bottom: 15%;
-    }
-    
-    .p13{
-    
-        position: relative;
-        top: 15px;
-        line-height: 40px;
-        padding: 8% 11% 2% 11%;
-        font-size: small;
-    
-    }
-    
     .p14link{
-    
-        padding-top:3%;
+      padding-top:5%;
+      display: flex;
+      justify-content: flex-start;
     }
-    
-    .p14link a{
-    
+    .p14link a{   
         text-decoration: none;
-    }
-    
+    }  
     .great{
         font-size: 1%;
     }
-
     /* footer*/
-
-
     footer{
         display: block;
         font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
         "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 16px;
-        padding: 8% 3% 2% 3%;
+        padding: 8% 3% 2% 4%;
     }
-
     .fH1{
         font-size: 35px;
         font-weight: 600;
         padding: 3% 4% 0% 4%;
     }
-    
+    .p27{
+        line-height: 24px;
+        padding-top: 0px;
+        position: relative;
+        bottom: 12px;
+    }
     .flexItem5{
         display:none ;
     }
@@ -1309,31 +1329,30 @@ footer{
         align-items: center;
         gap: 8%;
         padding-bottom: 2%;
-        line-height: 35px;
+        line-height: 25px;
         padding: 8% 1% 2% 3%;
         font-size: medium;
     }
-    
     .email{
-        width: 50%;
-        height: 45px;
+        width: 71%;
+        height: 35px;
         border: transparent;
         background-color: #dde2e1 ;
-        padding-left: 7%;
-        margin-top: 5%;
+        padding-left: 4%;
         font-size: medium;
+        color: #161616;
     }
-
+    
     .Sign{
-        width: 40%;
-        height: 44px;
+        width: 23%;
+        height: 35px;
         position: relative;
-        right: 2%;
+        right: 1.4%;
+        bottom: 0.7px;
         background-color: blue;
         color: #ffffff;
         border: transparent;
         padding: 2%;
-        font-size: medium;
     }
     
     .flexItem1{
@@ -1373,11 +1392,18 @@ footer{
         width: 99%;
     }
     .lang{
-        width: 50%;
+        width: 40%;
+        height: 30px;
     }
-
+    .fa-angle-right{
+        font-size: 10px;
+        margin-left: 2px;
+    }
     .location{
         width: 70%;
+        height: 30px;
+        position: relative;
+        bottom: 5px;
     }
 
     .icons{
@@ -1386,42 +1412,27 @@ footer{
         color:white;
         padding-bottom: 3%;
         padding-top: 5%;
+        width: 86%;
     }
-    
-    
     .twitter{
-        background-color: rgb(29, 139, 190);
-        width: 12.5%;
-        height: 27px;
-        padding: 7px;
-        font-size: 30px;
+        background-color:none;
+        color:black;
+        width: 16%;
+        height: 38px;
+        padding: 10px 0px 0px 0px;
+        font-size: 32px;
     }
-    
-    .youtube{
-        background-color: red;
-        width: 12.5%;
-        height: 27px;
-        padding: 6px  8px 8px 5px;
-        font-size: 30px;
-    }
-    
+    .youtube,
+    .facebook,
     .instagram{
-        background-color: orangered;
-        width: 12.4%;
-        height: 27px;
-        padding: 6px 6px 8px 8px;
-        font-size: 30px;
+        width: 13%;
     }
-    
-    .facebook{
-        background-color: rgb(4, 102, 231);
-        width: 12.4%;
-        height: 27px;
-        padding: 6px 6px 8px 8px;
-        font-size: 30px;
+    .tiktok{
+        width: 18%;
+        height: 38px;
+        padding: 5px 0px 0px 0px;
+        font-size: 32px;
     }
-
-    
     .firstRow{
        display:block;
        
@@ -1434,7 +1445,7 @@ footer{
 
     .thirdRow{
         display:block;
-        width: 70px;
+        width: 80%;
         padding: 2%;
         margin-top: 3%;
     } 
@@ -1442,20 +1453,25 @@ footer{
     .thirdRow a{
         margin: 9% 1% 9% 1% ;
     }
-
+    .thirdRow li{
+        list-style: none;
+    }
     .Berlin{
-        display: none;
+        display: block;
     }
     .fLogo{
-        display: none;
+        display: block;
+        width: 30%;
     }
 
-    flexItem3{
-        width: 63%;
-        margin-left: 6%;
-        padding-bottom: 2%;
+    .flexItem3{
+        font-size: 16px;
     }
-    
+    .signature{
+        display: none;
+        width: 90%;
+        margin-top: 10px;
+    }
     flexItem1{
         padding-bottom: 3%;
 
@@ -1469,7 +1485,9 @@ footer{
 }
 
 @media screen  and (min-width : 480px) and (max-width : 768px){
-
+.headerImgTab{
+    display: none;
+}
     ul{
         display: flex;
         list-style: none;
@@ -1643,18 +1661,7 @@ footer{
         left: 12%;
         width: 80%;
     }
-    .VideoPlay{
-        position: relative;
-        bottom: 120px;
-        display: none;
-    }
-    #VideoPlayIcon{
-        width: 10%;
-        color: blue;
-        height: 60px;
-        background-color: #eb7652;
-        filter: invert(13%) sepia(73%) saturate(4921%) hue-rotate(241deg) brightness(76%) contrast(140%);
-    }
+
     .videoText{
         font-size: medium;
         font-weight: 600;
@@ -2096,9 +2103,16 @@ footer{
         padding-left: 3%; 
     } 
     .contactLinks{
-        width: 30%;
+        width: 50%;
         display: block;
         padding: 0% 20% 0% 0%;
+    }
+    .contactLinks ul{
+        width: 70%;
+        display: block;
+        line-height: 36px;
+        font-size: 16px;
+        font-weight: lighter;
     }
     .contactLinks a{
         margin-left: 0px;
@@ -2140,7 +2154,223 @@ footer{
 
 @media screen  and (min-width : 769px) and (max-width : 1024px){
 
-    ul{
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 1% 1.5% 1% 1.5%;
+        font-size: 19px;
+        font-family: futura;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-top: 10px;
+    }   
+    .links2{
+        display:flex;
+        justify-content: space-between;
+        width: 30%;
+    }
+    .linkB{
+        font-weight: lighter;
+        font-family: "futurabold";
+        font-size: medium;
+        color: #212121;
+        margin-top: 2px;
+        padding-left: 5px;
+    }
+    .contactLinks li{
+        list-style: none;
+    }
+    .link3{
+        position: relative;
+        left: 0%; 
+        width: 30%;
+        padding: 1.6% 0% 0% 0.6%;
+        z-index: 99;
+    }
+    .headerImage{
+        display: none;
+    }
+    .page1H1{
+        display: none;
+    }
+    .p1{
+        line-height: 35px;
+        padding: 6% 20% 0% 15%;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .p2{
+        padding: 1% 18% 6% 15%;
+        font-size: 12px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+    }
+    .p3{
+        line-height: 35px;
+        padding: 6% 20% 0% 15%;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .p4{
+        padding: 1% 18% 6% 15%;
+        font-size: 12px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+    }
+    .p5{
+        line-height: 35px;
+        padding: 6% 20% 0% 15%;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .p6{
+        padding: 1% 18% 6% 15%;
+        font-size: 12px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+    }
+    .p7{
+        line-height: 35px;
+        padding: 6% 20% 0% 15%;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .p8{
+        padding: 1% 18% 6% 15%;
+        font-size: 12px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+    }
+    .p9{
+        line-height: 35px;
+        padding: 6% 20% 0% 15%;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .p10{
+        padding: 1% 18% 6% 15%;
+        font-size: 12px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+    }
+    .p11{
+        line-height: 35px;
+        padding: 6% 20% 0% 15%;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .p12{
+        padding: 1% 18% 6% 15%;
+        font-size: 12px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+    }
+    br{
+        display: none;
+    }
+    .traDiv{
+
+        position: relative;
+        left:8%;
+        padding-top: 8%;
+        z-index: 99;
+        width: 50%;      
+    }
+    .video{
+
+        padding: 2% 18% 2% 15%;
+    }
+    .purpleBackground{
+        width: 70%;
+        background-color: #d5b3ff;
+        height: 680px;
+        position: relative;
+        left: 15%;
+    }
+    .img9{
+        z-index: 99;
+        position: absolute;
+        top: 28%;
+        left: 8%;
+        width: 33%;
+    }
+    
+    .img10{
+        z-index: 99;
+        position: absolute;
+        right: 0%;
+        top: 15%;
+        width: 43%;
+    }
+    .uuuuuuu{
+        display: block;
+        padding: 1% 7.4%;
+    }
+    .abletonImage1{
+        display: none;
+        padding: 3.2% 8.4% 0% 8.4%;
+        z-index: 99;
+    }
+    .image11{
+        display: none;
+    }
+    .toughTime{
+        display: block;
+    }
+    .img11{
+        display: block;
+        width: 100%;
+        margin-bottom:0%;
+    }
+    .bue{
+        width: 83.1%;
+        background-color:#b1c5ff;
+        padding: 0% 8.5% 3.5% 8.4%;
+        position: relative;
+        bottom: 5px;
+        height: 250px;
+        margin-bottom: 8%;
+    }
+    @font-face {
+        font-family: "futuraThinner";
+        src: url("./assets/FUTURA45LIGHT.TTF");
+    }
+    .p13{
+        position: relative;
+        top: 5px;
+        padding: 8% 0% 0% 0.5%;
+        text-align: center;
+        font-size: 19px;
+        line-height: 37px;
+        font-weight: lighter;
+    }
+    .fa-angle-right{
+        font-size: 10px;
+        margin-left: 1px;
+    }
+    .firstRow{
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        gap: 6%;
+        padding-bottom: 2%;
+    }
+    .contactLinks{
+        width: 55%;
+    }
+    .contactLinks a{
+        margin-left: 3px;
+    }
+    .contactLinks ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .signature{
+        display: flex;
+        width: 17%;
+        justify-content: space-between;
+    }
+    /* ul{
         display: flex;
         list-style: none;
         width: 96%;
@@ -2157,14 +2387,7 @@ footer{
         width: 35%;
     }
     
-    
-    .links2{
-        display:flex;
-        position: relative;
-        left: 27%;
-        gap: 4%;
-        width: 34%;
-    }
+
 
     footer{
         display: block;
@@ -2469,7 +2692,7 @@ footer{
     .great{
         font-size: 1%;
     }
-    
+     */
 
 
 }
