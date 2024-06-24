@@ -1481,7 +1481,9 @@ footer{
         display:block;
     }
 
-
+    .contactLinks ul{
+        display: block;
+    }
 }
 
 @media screen  and (min-width : 480px) and (max-width : 768px){
